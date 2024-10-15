@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "264754741627",
+    "project_id": "futbolconnection-605db",
+    "storage_bucket": "futbolconnection-605db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264754741627:android:d289fa2544e06e7a16fdde",
+        "android_client_info": {
+          "package_name": "com.example.futbol_connection"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZtAi5aT__Cub7SYb2_l3HakEi-CHOYJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
