@@ -56,11 +56,23 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.75" />
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="1205dp"
+        android:layout_height="1255dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.438"
+        app:srcCompat="@drawable/foto_estadio_futbol_gradas_llenas_fanaticos_esperando_juego_noche_575980_13290" />
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="¿No te has registrado aún?"
+        android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
@@ -68,12 +80,16 @@
         app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/t_mainToRegistro"
+        android:layout_width="178dp"
+        android:layout_height="48dp"
+        android:clickable="true"
         android:fontFamily="monospace"
+        android:onClick="changeToRegistro"
         android:text="Pulsa Aquí"
-        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
         app:layout_constraintStart_toStartOf="@+id/guideline6"
@@ -87,13 +103,36 @@
         app:layout_constraintGuide_percent="0.65" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="107dp"
-        android:layout_height="55dp"
+        android:id="@+id/b_mainToLogin"
+        android:layout_width="157dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="7dp"
+        android:backgroundTint="#5D6A76"
+        android:fontFamily="@font/gelasio_semibold"
+        android:onClick="changeToLogin"
         android:text="Iniciar"
-        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
         app:layout_constraintStart_toStartOf="@+id/guideline6"
-        app:layout_constraintTop_toTopOf="@+id/guideline" />
+        app:layout_constraintTop_toTopOf="@+id/guideline8" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25171" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="145dp"
+        android:scaleType="center"
+        app:layout_constraintBottom_toTopOf="@+id/guideline9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_completo_blanco_sin_fondo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
