@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
+//Boton para ir de Main a Login.
 
         Button changeToLogin = findViewById(R.id.b_mainToLogin);
         changeToLogin.setOnClickListener(new View.OnClickListener() {
@@ -38,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+//Boton para ir de Main a Registro.
 
         TextView changeToRegistro = findViewById((R.id.t_mainToRegistro));
 

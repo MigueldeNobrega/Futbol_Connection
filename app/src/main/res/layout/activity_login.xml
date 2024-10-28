@@ -116,11 +116,13 @@
         app:layout_constraintTop_toTopOf="@+id/guideline15" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/b_loginToMenuInicio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#5D6A76"
+        android:clickable="true"
         android:fontFamily="@font/gelasio_semibold"
+        android:onClick="changeToMenuInicial"
         android:text="Iniciar Sesión"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline33"
