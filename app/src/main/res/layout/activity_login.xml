@@ -65,7 +65,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline18"
         app:layout_constraintTop_toTopOf="@+id/guideline15"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline24"
@@ -79,7 +79,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.82481754" />
+        app:layout_constraintGuide_percent="0.82" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline31"
@@ -93,14 +93,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.75" />
+        app:layout_constraintGuide_percent="0.64" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline33"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.84" />
+        app:layout_constraintGuide_percent="0.82" />
 
     <TextView
         android:id="@+id/textView7"
@@ -145,5 +145,41 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline22"
         app:layout_constraintStart_toStartOf="@+id/guideline18"
         app:layout_constraintTop_toTopOf="@+id/guideline33" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.52" />
+
+    <EditText
+        android:id="@+id/txtNombreL"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:hint="Nombre de Usuario"
+        android:inputType="text"
+        android:textColor="#D3CBCB"
+        android:textColorHint="#D3CBCB"
+        android:textColorLink="#D3CBCB"
+        app:layout_constraintBottom_toTopOf="@+id/guideline29"
+        app:layout_constraintEnd_toStartOf="@+id/guideline30"
+        app:layout_constraintStart_toStartOf="@+id/guideline24"
+        app:layout_constraintTop_toTopOf="@+id/guideline31" />
+
+    <EditText
+        android:id="@+id/txtPasswL"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textColor="#D3CBCB"
+        android:textColorHint="#D3CBCB"
+        app:layout_constraintBottom_toTopOf="@+id/guideline32"
+        app:layout_constraintEnd_toStartOf="@+id/guideline30"
+        app:layout_constraintStart_toStartOf="@+id/guideline24"
+        app:layout_constraintTop_toTopOf="@+id/guideline29" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

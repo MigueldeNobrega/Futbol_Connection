@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.500684" />
+        app:layout_constraintGuide_percent="0.5" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -64,7 +64,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.438"
+        app:layout_constraintVertical_bias="0.559"
         app:srcCompat="@drawable/foto_estadio_futbol_gradas_llenas_fanaticos_esperando_juego_noche_575980_13290" />
 
     <TextView
@@ -81,8 +81,8 @@
 
     <TextView
         android:id="@+id/t_mainToRegistro"
-        android:layout_width="178dp"
-        android:layout_height="48dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:clickable="true"
         android:fontFamily="monospace"
         android:onClick="changeToRegistro"
@@ -100,12 +100,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.65" />
+        app:layout_constraintGuide_percent="0.7" />
 
     <Button
         android:id="@+id/b_mainToLogin"
-        android:layout_width="157dp"
-        android:layout_height="59dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginBottom="7dp"
         android:backgroundTint="#5D6A76"
         android:fontFamily="@font/gelasio_semibold"
