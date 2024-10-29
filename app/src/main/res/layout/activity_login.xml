@@ -123,7 +123,7 @@
         android:backgroundTint="#5D6A76"
         android:clickable="true"
         android:fontFamily="@font/gelasio_semibold"
-        android:onClick="changeToMenuInicial"
+        android:onClick="loginFromFirebase_DB"
         android:text="Iniciar Sesión"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline33"
