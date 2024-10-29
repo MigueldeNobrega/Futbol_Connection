@@ -34,6 +34,15 @@ public class RegistroActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        TextView changeToLogin = findViewById(R.id.t_registroToLogin);
+
+        changeToLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(RegistroActivity.this, "Inicia Sesión", Toast.LENGTH_LONG).show();
+                startActivity(new Intent(RegistroActivity.this, LoginActivity.class));
+            }
+        });
     }
 
 public void registrarToFirebase_DB(View view) {

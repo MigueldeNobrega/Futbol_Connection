@@ -234,4 +234,21 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.82" />
 
+    <TextView
+        android:id="@+id/t_registroToLogin"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:fontFamily="@font/gelasio"
+        android:onClick="changeToLogin"
+        android:paddingTop="8dp"
+        android:text="Iniciar Sesión"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline11"
+        app:layout_constraintEnd_toStartOf="@+id/guideline20"
+        app:layout_constraintStart_toStartOf="@+id/guideline19"
+        app:layout_constraintTop_toBottomOf="@+id/b_registroToMenuInicioActivity" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
