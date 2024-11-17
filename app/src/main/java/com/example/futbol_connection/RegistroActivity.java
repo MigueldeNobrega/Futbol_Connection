@@ -59,6 +59,7 @@ public void registrarToFirebase_DB(View view) {
     String nombre = nombreUsuario.getText().toString();
     String correo = correoUsuario.getText().toString();
 
+
     // Verificar si las contraseñas coinciden
     if (pass1.equals(pass2)) {
         // Verificar que no haya campos vacíos
@@ -72,11 +73,12 @@ public void registrarToFirebase_DB(View view) {
         values.put("usu_correo", correo);
         values.put("usu_passw", pass1);
 
+
+
         // Usar `add` en lugar de `set` para que Firebase Firestore genere un ID automáticamente
         database.collection("usuarios").add(values)
                 .addOnSuccessListener(documentReference -> {
                     Toast.makeText(RegistroActivity.this, "Usuario registrado con ID: " + documentReference.getId(), Toast.LENGTH_LONG).show();
-
 
 
                         startActivity(new Intent(RegistroActivity.this, MenuInicioActivity.class));
