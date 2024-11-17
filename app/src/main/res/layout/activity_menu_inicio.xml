@@ -15,9 +15,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline36">
-
-    </FrameLayout>
+        app:layout_constraintTop_toTopOf="@+id/guideline36"/>
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline36"
@@ -290,6 +288,32 @@
         app:layout_constraintStart_toStartOf="@+id/guideline51"
         app:layout_constraintTop_toTopOf="@+id/guideline36"
         app:srcCompat="@drawable/icons8_browse_podcasts_64" />
+
+    <TextView
+        android:id="@+id/t_menuToPerfil"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:text="aaa"
+        android:textColor="#212A33"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline38"
+        app:layout_constraintStart_toStartOf="@+id/guideline50"
+        app:layout_constraintTop_toTopOf="@+id/guideline36" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:paddingTop="32sp"
+        android:text="a"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline51"
+        app:layout_constraintStart_toStartOf="@+id/guideline37"
+        app:layout_constraintTop_toTopOf="@+id/guideline36"
+        android:background="@drawable/shapesinicioiconos"/>
 
     <ImageView
         android:id="@+id/imageView11"
